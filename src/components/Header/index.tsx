@@ -1,12 +1,12 @@
-import styles from "./styles.module.css"
-import IgniteLogo from "../../assets/logo.svg"
+import "./styles.scss"
+import igniteLogo from "../../assets/logo.svg"
 
 export default function Header(){
 
     return(
-        <header className={styles.Container}>
-            <img src={IgniteLogo} alt="Ignite Logo"/>
-            Ignite Feed
+        <header className="container">
+            <img src={igniteLogo} alt="Ignite Logo"/>
+            <h1>Ignite Feed</h1>
         </header>
     )
 
