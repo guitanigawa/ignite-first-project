@@ -1,0 +1,41 @@
+.container{
+    
+
+    width: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: var(--gray-800);
+
+    .icon{
+        position: relative;
+        top: -1.5rem;
+
+        border: 0.15rem solid var(--green-500);
+        border-radius: 0.5rem;
+    }
+
+    h2{
+        font-size: 1rem
+    }
+
+    h3{
+        font-size: 0.875rem;
+        color: var(--gray-400)
+    }
+
+    button{
+        font-size: 1rem;
+        font-weight: bold;
+        color: var(--green-500);
+        padding: 1rem 1.5rem;
+        background-color: var(--gray-800);
+        
+        border: 1px solid var(--green-500);
+        border-radius: 0.5rem;
+
+    }
+    
+}
