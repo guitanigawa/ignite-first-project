@@ -1,5 +1,6 @@
 import Container from "./components/Container";
 import Header from "./components/Header";
+import Post from "./components/Post";
 import Sidebar from "./components/Sidebar";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       
       <Container>
          <Sidebar/>
+         <Post/>
       </Container>
     </>
   )

@@ -18,14 +18,19 @@ export default function Sidebar(){
                 alt="Icon"
                 className={styles.icon}
             />
+            
+            <section>
+                <h2>Leslie Alexander</h2>
+                <h3>UI Designer</h3>
+            </section>
 
-            <h2>Leslie Alexander</h2>
-            <h3>UI Designer</h3>
-
-            <button>
-                <PiPencilSimpleLineBold/>
-                Editar seu perfil
-            </button>
+            <footer>
+                <button>
+                    <PiPencilSimpleLineBold/>
+                    {" "}
+                    Editar seu perfil
+                </button>
+            </footer>
         </aside>
     )
 }

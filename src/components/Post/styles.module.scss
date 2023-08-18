@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+
+    background-color: var(--gray-800);
+    border-radius: 0.5rem;
+    padding: 2.5rem;
+
+    header{
+        display: flex;
+        align-items: center;
+
+
+        img{
+            border: 0.2rem solid var(--gray-800);
+            outline: 0.15rem solid var(--green-500);
+            border-radius: 0.5rem;
+        }
+
+        section{
+            margin-left: 1rem;
+
+            h2{
+                font-size: 1rem;
+                margin-bottom: 0.2rem;
+            }
+
+            h3{
+                font-size: 0.875rem;
+                color: var(--gray-400);
+            }
+        }
+
+        .messageText{
+            p{
+                color:
+            }
+        }
+    }
+
+
+
+
+
+
+}

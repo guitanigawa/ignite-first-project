@@ -1,5 +1,5 @@
 .container{
-    
+    border-radius: 0.5rem;
 
     width: 16rem;
     display: flex;
@@ -11,14 +11,20 @@
 
     .icon{
         position: relative;
-        top: -1.5rem;
+        top: -1.8rem;
 
-        border: 0.15rem solid var(--green-500);
+        border: 0.2rem solid var(--gray-800);
+        outline: 0.15rem solid var(--green-500);
         border-radius: 0.5rem;
     }
 
+    .banner{
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+
     h2{
-        font-size: 1rem
+        font-size: 1rem;
+        margin-bottom: 0.5rem
     }
 
     h3{
@@ -26,16 +32,38 @@
         color: var(--gray-400)
     }
 
-    button{
-        font-size: 1rem;
-        font-weight: bold;
-        color: var(--green-500);
-        padding: 1rem 1.5rem;
-        background-color: var(--gray-800);
-        
-        border: 1px solid var(--green-500);
-        border-radius: 0.5rem;
-
+    section{
+        text-align: center;
+        margin-top: -0.5rem;
     }
-    
+
+    footer{
+        padding: 2rem 0;
+        border-top: 2px solid var(--gray-600);
+        width: 100%;
+        margin-top: 1.7rem;
+        
+        display: flex;
+        justify-content: center;
+
+        button{
+            font-size: 1rem;
+            font-weight: bold;
+            color: var(--green-500);
+            padding: 1rem 1.5rem;
+            background-color: var(--gray-800);
+            
+            border: 1px solid var(--green-500);
+            border-radius: 0.5rem;
+
+            cursor: pointer;
+
+            transition: background-color 0.5s, color 0.5s;
+        }
+
+        button:hover{
+            background-color: var(--green-500);
+            color: var(--white)
+        }
+    }
 }
